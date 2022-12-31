@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: block;
+}
+
+h1 {
+  color: #22559c;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+ul {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  list-style-type: none;
+  margin: 18px 100px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 55%;
+  border: 10px solid #f27370;
+  border-radius: 7px;
+}
+
+button {
+  background-color: #fcb382;
+  color: #22559c;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 12px auto;
+  padding: 12px;
+  border-radius: 20px;
+  box-shadow: 3px 3 px 3px #183b6d;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background-color: #f27370;
+  cursor: pointer;
+}
+
+.container {
+  background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  border-radius: 20px;
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 15px 50px;
+}
+
+.description {
+  margin: 10px auto;
+  max-width: 600px;
+  font-size: 20px;
+}
+
+.bestsellers {
+  color: #22559c;
+  font-size: 35px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.nytimes {
+  color: #22559c;
+  text-decoration: none;
+}
+
+.nytimes:hover {
+  text-decoration: underline;
+}
+
+.signature {
+  text-align: center;
+  font-size: 124x;
+  font-weight: bold;
+}
